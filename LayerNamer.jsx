@@ -10,7 +10,7 @@ function layerNamer() {
 
 		var nameBox = inputGroup.add("edittext", [10, 10, 500, 30], "Layer Name", {active: true});
 			nameBox.active = true;
-		inputGroup.add("statictext", undefined, "Only put commas between names. Do NOT use spaces.");
+		inputGroup.add("statictext", undefined, "Seperate layer names using commas");
 
 	var buttonGroup = layerNamerWindow.add("group", undefined, "Buttons")
 			buttonGroup.orientation = "row";
